@@ -11,7 +11,7 @@ print('packages imported successfully!')
 def create_database():
     #connect to Mysql DB
     try:
-        conn = mysql.connector.connect(user='root', password='mn383301534',
+        conn = mysql.connector.connect(user='root', password='**********',
                                   host='localhost',
                                   database='datamodel')
         print('connected successfully')
